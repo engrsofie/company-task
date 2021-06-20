@@ -1,0 +1,17 @@
+.lock{
+    height:250px;
+}
+.circle{
+    margin-top: 170px;
+    height: 80px;
+}
+.Rectangle{
+    border-radius:10px;
+    background-image: url(/images/Rectangle.png);
+    height: 120px;
+    width: 600px;
+    padding: 20px;
+}
+.Rectangle button {
+    margin-left: 180px;
+}
