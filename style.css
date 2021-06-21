@@ -1,17 +1,47 @@
-.lock{
-    height:250px;
+.lock {
+    height: 250px;
 }
-.circle{
+
+.circle {
     margin-top: 170px;
     height: 80px;
 }
-.Rectangle{
-    border-radius:10px;
+
+.Rectangle {
+    border-radius: 10px;
     background-image: url(/images/Rectangle.png);
     height: 120px;
     width: 600px;
     padding: 20px;
 }
+
 .Rectangle button {
     margin-left: 180px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:  auto auto auto auto; ;
+    
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.cycles {
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.cycles img{
+    height: 200px;
+    width: 200px;
+}
+
+.full img{
+    height: 480px;
+    padding: 10px;
 }
